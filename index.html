@@ -7,48 +7,60 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
  <style>
-	 header {
+header {
 	height: 300px;
-	background:url("https://i.imgur.com/roy1h9j.jpg") fixed;}
-	 
-#home {display:;}
-#home:target {display:;}
-#history {display:none;}
+background:url("https://i.imgur.com/roy1h9j.jpg") fixed;
+}
+footer {height: 200px;}
+/* #home {display:none;}
+
+#home:target {display: block;							}*/
+#history, #caerns, #fera, #rules, #metaplot, #tribe, #creation, #house {display: none;}
+
 #history:target {display: block;}
-#caerns {display:none;}
 #caerns:target {display: block;}
-#fera {display:none;}
 #fera:target {display: block;}
-#rules {display:none;}
 #rules:target {display: block;}
+#metaplot:target {display: block;}
+#tribe:target {display: block;}
+#creation:target {display: block;}
+#house:target {display: block;}
  </style>
   </head>
 <body>
+<header>
+</header>
 
-	<header>
-		
-	</header>
-  
 <nav class="navbar bg-inverse text-white" id="return">
 						
 <ul class="nav justify-content-center">
+		
   <li class="nav-item">
-    <a class="nav-link active" href="#home">Home</a>
+    <a class="nav-link active text-white" href="#home">Home</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#history">History</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#caerns">Caerns</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#fera">Fera & Others</a>
-  </li>
-	  <li class="nav-item">
-    <a class="nav-link" href="#rules">House Rules</a>
-  </li>
-</ul>
 	
+	<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Setting</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#metaplot">Metaplot</a>
+							<a class="dropdown-item" href="#history">History</a>
+              <a class="dropdown-item" href="#tribe">Tribal Presence</a>
+              <a class="dropdown-item" href="#caerns">Caerns</a>
+							<a class="dropdown-item" href="#fera">Fera & Others</a>
+            </div>
+          </li>
+	  <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">How to Join</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#rules">OOC Agreement</a>
+							<a class="dropdown-item" href="#creation">Character Creation</a>
+							<a class="dropdown-item" href="#house">House Rules</a>
+							</li>
+	<li class="nav-item">
+    <a class="nav-link" href="#credits">Disclaimer & Credits</a>
+  </li>
+	</ul>
+	</ul>
     </nav>
 
 <div class="container" id="home">
@@ -69,9 +81,25 @@
 	<p><a href="#return">Return to the top.</a></p>
 </div>
 
+<div class="container" id="metaplot">
+	<br />
+	<h2>Metaplot</h2>
+	<hr>
+	<p>Nulla vel justo iaculis, tincidunt lacus vitae, scelerisque metus. Nunc ullamcorper neque vel magna viverra, vitae sagittis erat posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In cursus dui vitae urna pharetra, et varius mi consequat. Donec nulla est, mattis at nisi ut, sagittis aliquam leo. Maecenas et metus eget quam ultricies pulvinar. Donec vel eros quis odio scelerisque molestie. Aenean venenatis eros eu nulla placerat commodo. Mauris feugiat velit porta urna iaculis sagittis sed sed lorem.</p>	
+	<p><a href="#return">Return to the top.</a></p>
+</div>
+
 <div class="container" id="history">
 	<br />
 	<h2>A Brief History of Local Garou</h2>
+	<hr>
+	<p>Nulla vel justo iaculis, tincidunt lacus vitae, scelerisque metus. Nunc ullamcorper neque vel magna viverra, vitae sagittis erat posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In cursus dui vitae urna pharetra, et varius mi consequat. Donec nulla est, mattis at nisi ut, sagittis aliquam leo. Maecenas et metus eget quam ultricies pulvinar. Donec vel eros quis odio scelerisque molestie. Aenean venenatis eros eu nulla placerat commodo. Mauris feugiat velit porta urna iaculis sagittis sed sed lorem.</p>	
+	<p><a href="#return">Return to the top.</a></p>
+</div>
+
+<div class="container" id="tribe">
+	<br />
+	<h2>Tribal Presence</h2>
 	<hr>
 	<p>Nulla vel justo iaculis, tincidunt lacus vitae, scelerisque metus. Nunc ullamcorper neque vel magna viverra, vitae sagittis erat posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In cursus dui vitae urna pharetra, et varius mi consequat. Donec nulla est, mattis at nisi ut, sagittis aliquam leo. Maecenas et metus eget quam ultricies pulvinar. Donec vel eros quis odio scelerisque molestie. Aenean venenatis eros eu nulla placerat commodo. Mauris feugiat velit porta urna iaculis sagittis sed sed lorem.</p>	
 	<p><a href="#return">Return to the top.</a></p>
@@ -90,16 +118,48 @@
 	<h2>Fera & Other Supernatural Sightings</h2>
 	<hr>
 	<p>Nulla vel justo iaculis, tincidunt lacus vitae, scelerisque metus. Nunc ullamcorper neque vel magna viverra, vitae sagittis erat posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In cursus dui vitae urna pharetra, et varius mi consequat. Donec nulla est, mattis at nisi ut, sagittis aliquam leo. Maecenas et metus eget quam ultricies pulvinar. Donec vel eros quis odio scelerisque molestie. Aenean venenatis eros eu nulla placerat commodo. Mauris feugiat velit porta urna iaculis sagittis sed sed lorem.</p>	
+	<p>
+		<h4>Corax</h4>
+			Nulla vel justo iaculis, tincidunt lacus vitae, scelerisque metus. Nunc ullamcorper neque vel magna viverra, vitae sagittis erat posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In cursus dui vitae urna pharetra, et varius mi consequat. Donec nulla est, mattis at nisi ut, sagittis aliquam leo. Maecenas et metus eget quam ultricies pulvinar. Donec vel eros quis odio scelerisque molestie. Aenean venenatis eros eu nulla placerat commodo. Mauris feugiat velit porta urna iaculis sagittis sed sed lorem.
+	</p>
 	<p><a href="#return">Return to the top.</a></p>
 </div>
 
 <div class="container" id="rules">
+	<br />
+	<h2>OOC Agreement</h2>
+	<hr>
+	<p>Nulla vel justo iaculis, tincidunt lacus vitae, scelerisque metus. Nunc ullamcorper neque vel magna viverra, vitae sagittis erat posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In cursus dui vitae urna pharetra, et varius mi consequat. Donec nulla est, mattis at nisi ut, sagittis aliquam leo. Maecenas et metus eget quam ultricies pulvinar. Donec vel eros quis odio scelerisque molestie. Aenean venenatis eros eu nulla placerat commodo. Mauris feugiat velit porta urna iaculis sagittis sed sed lorem.</p>	
+	<p><a href="#return">Return to the top.</a></p>
+</div>
+	
+	<div class="container" id="creation">
+	<br />
+	<h2>Character Creation</h2>
+	<hr>
+	<p>Nulla vel justo iaculis, tincidunt lacus vitae, scelerisque metus. Nunc ullamcorper neque vel magna viverra, vitae sagittis erat posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In cursus dui vitae urna pharetra, et varius mi consequat. Donec nulla est, mattis at nisi ut, sagittis aliquam leo. Maecenas et metus eget quam ultricies pulvinar. Donec vel eros quis odio scelerisque molestie. Aenean venenatis eros eu nulla placerat commodo. Mauris feugiat velit porta urna iaculis sagittis sed sed lorem.</p>	
+	<p><a href="#return">Return to the top.</a></p>
+</div>
+
+<div class="container" id="house">
 	<br />
 	<h2>House Rules</h2>
 	<hr>
 	<p>Nulla vel justo iaculis, tincidunt lacus vitae, scelerisque metus. Nunc ullamcorper neque vel magna viverra, vitae sagittis erat posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In cursus dui vitae urna pharetra, et varius mi consequat. Donec nulla est, mattis at nisi ut, sagittis aliquam leo. Maecenas et metus eget quam ultricies pulvinar. Donec vel eros quis odio scelerisque molestie. Aenean venenatis eros eu nulla placerat commodo. Mauris feugiat velit porta urna iaculis sagittis sed sed lorem.</p>	
 	<p><a href="#return">Return to the top.</a></p>
 </div>
+
+<footer class="bg-inverse text-white" id="credits">
+	<br />
+	<div class="container">
+		<h2>Disclaimer & Credits</h2>
+		<hr>
+	<p>Werewolf the Apocalypse & related properties are © to White Wolf & Onyx Path.</p>
+	
+	<p>	Art in the banner is © to the artists of the Werewolf Calendar.</p>
+		</div>
+</footer>
+	
 
 </body>
 </html>
